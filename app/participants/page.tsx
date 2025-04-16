@@ -33,7 +33,7 @@ export default function ParticipantsPage() {
       joinedDate: "Joined April, 14th 2023",
       birthdate: "Birthdate: Sep 12th 1974",
       isPresent: true,
-      avatar: "/guy2.jpg?height=120&width=120",
+      avatar: "/assets/guy2.jpg?height=120&width=120",
     },
     {
       id: "3",
@@ -41,7 +41,7 @@ export default function ParticipantsPage() {
       joinedDate: "Joined January, 7th 2025",
       birthdate: "Birthdate: Oct 9th 1998",
       isPresent: true,
-      avatar: "/guy3.jpg?height=120&width=120",
+      avatar: "/assets/guy3.jpg?height=120&width=120",
     },
     {
       id: "4",
@@ -49,7 +49,7 @@ export default function ParticipantsPage() {
       joinedDate: "Joined February, 4th 2021",
       birthdate: "Birthdate: Nov 7th 1987",
       isPresent: true,
-      avatar: "/girl1.jpg?height=120&width=120",
+      avatar: "/assets/girl1.jpg?height=120&width=120",
     },
     {
       id: "5",
@@ -57,7 +57,7 @@ export default function ParticipantsPage() {
       joinedDate: "Joined June, 30th 2023",
       birthdate: "Birthdate: Aug 15th 1990",
       isPresent: false,
-      avatar: "/guy4.jpg?height=120&width=120",
+      avatar: "/assets/guy4.jpg?height=120&width=120",
     },
     {
       id: "6",
@@ -65,7 +65,7 @@ export default function ParticipantsPage() {
       joinedDate: "Joined March, 5th 2024",
       birthdate: "Birthdate: Feb 22nd 1985",
       isPresent: false,
-      avatar: "/guy5.jpg?height=120&width=120",
+      avatar: "/assets/guy5.jpg?height=120&width=120",
     },
     {
       id: "7",

@@ -25,7 +25,7 @@ export default function ParticipantsPage() {
       joinedDate: "Joined March, 16th 2024",
       birthdate: "Birthdate: Jun 20th 1966",
       isPresent: true,
-      avatar: "/placeholder.svg?height=120&width=120",
+      avatar: "/assets/guy1?height=120&width=120",
     },
     {
       id: "2",

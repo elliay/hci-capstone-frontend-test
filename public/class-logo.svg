@@ -1,0 +1,8 @@
+<svg width="140" height="80" viewBox="0 0 140 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="60" cy="40" r="30" fill="#4318ff" />
+  <circle cx="80" cy="40" r="30" fill="#23fbc5" />
+  <circle cx="100" cy="40" r="30" fill="#63b7e6" />
+  <text x="70" y="45" text-anchor="middle" font-size="24" font-weight="bold" fill="white">CLASS</text>
+  <text x="70" y="65" text-anchor="middle" font-size="8" fill="#2b3674">Community Living</text>
+  <text x="70" y="75" text-anchor="middle" font-size="8" fill="#2b3674">And Support Services</text>
+</svg>

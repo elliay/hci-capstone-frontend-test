@@ -26,7 +26,7 @@ export default function ActivitiesPage() {
       title: "Counting Numbers",
       description: "Basic counting from 1-100",
       category: "Math",
-      trainingHours: "Training Hours: 20-25 hours",
+      trainingHours: "Time: 2 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -34,7 +34,7 @@ export default function ActivitiesPage() {
       title: "Calculating for Change",
       description: "Day-to-day interaction with money",
       category: "Math",
-      trainingHours: "Training Hours: 40 hours",
+      trainingHours: "Time: 30 mins",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -42,7 +42,7 @@ export default function ActivitiesPage() {
       title: "Color & Painting",
       description: "Understand the different colors",
       category: "Art",
-      trainingHours: "Training Hours: 30 hours",
+      trainingHours: "Time: 2 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -50,7 +50,7 @@ export default function ActivitiesPage() {
       title: "Music Genres",
       description: "Understand the different genres",
       category: "Music",
-      trainingHours: "Training Hours: 35 hours",
+      trainingHours: "Time: 1 hr",
       icon: "/placeholder.svg?height=40&width=40",
     },
   ])
@@ -61,7 +61,7 @@ export default function ActivitiesPage() {
       title: "Counting Numbers",
       description: "",
       category: "Math",
-      trainingHours: "Training Hour: 20-25 hrs",
+      trainingHours: "Time: 20 mins",
       daysAgo: "2d ago",
       icon: "/placeholder.svg?height=40&width=40",
     },
@@ -70,7 +70,7 @@ export default function ActivitiesPage() {
       title: "Color & Painting",
       description: "",
       category: "Art",
-      trainingHours: "Training Hour: 30 hrs",
+      trainingHours: "Time: 2 hrs",
       daysAgo: "4d ago",
       icon: "/placeholder.svg?height=40&width=40",
     },
@@ -79,7 +79,7 @@ export default function ActivitiesPage() {
       title: "Music Genres",
       description: "",
       category: "Music",
-      trainingHours: "Training Hour: 15-20 hrs",
+      trainingHours: "Time: 1 hrs",
       daysAgo: "8d ago",
       icon: "/placeholder.svg?height=40&width=40",
     },
@@ -88,9 +88,8 @@ export default function ActivitiesPage() {
       title: "Trader Joe's Volunteering",
       description: "",
       category: "Social",
-      trainingHours: "",
+      trainingHours: "Time: 1 hr",
       daysAgo: "9d ago",
-      by: "By Will Smith",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -98,9 +97,8 @@ export default function ActivitiesPage() {
       title: "News Reading",
       description: "",
       category: "Social",
-      trainingHours: "",
+      trainingHours: "Time: 1 hr",
       daysAgo: "12d ago",
-      by: "By Will Smith",
       icon: "/placeholder.svg?height=40&width=40",
     },
   ])
@@ -112,7 +110,7 @@ export default function ActivitiesPage() {
       title: "Counting Numbers",
       description: "Basic counting from 1-100",
       category: "Math",
-      trainingHours: "Training Hours: 20-25 hours",
+      trainingHours: "Training Hours: 20-25 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -120,7 +118,7 @@ export default function ActivitiesPage() {
       title: "Calculating for Change",
       description: "Day-to-day interaction with money",
       category: "Math",
-      trainingHours: "Training Hours: 40 hours",
+      trainingHours: "Training Hours: 40 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -128,7 +126,7 @@ export default function ActivitiesPage() {
       title: "Color & Painting",
       description: "Understand the different colors",
       category: "Art",
-      trainingHours: "Training Hours: 30 hours",
+      trainingHours: "Training Hours: 30 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -136,7 +134,7 @@ export default function ActivitiesPage() {
       title: "Music Genres",
       description: "Understand the different genres",
       category: "Music",
-      trainingHours: "Training Hours: 35 hours",
+      trainingHours: "Training Hours: 35 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -144,7 +142,7 @@ export default function ActivitiesPage() {
       title: "Social Interaction",
       description: "Practice everyday social skills",
       category: "Social",
-      trainingHours: "Training Hours: 45 hours",
+      trainingHours: "Training Hours: 45 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -152,7 +150,7 @@ export default function ActivitiesPage() {
       title: "Drawing Basics",
       description: "Learn fundamental drawing techniques",
       category: "Art",
-      trainingHours: "Training Hours: 25 hours",
+      trainingHours: "Training Hours: 25 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -160,7 +158,7 @@ export default function ActivitiesPage() {
       title: "Rhythm & Beat",
       description: "Understanding musical rhythm",
       category: "Music",
-      trainingHours: "Training Hours: 20 hours",
+      trainingHours: "Training Hours: 20 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -168,7 +166,7 @@ export default function ActivitiesPage() {
       title: "Basic Addition",
       description: "Adding numbers up to 100",
       category: "Math",
-      trainingHours: "Training Hours: 15 hours",
+      trainingHours: "Training Hours: 15 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -176,7 +174,7 @@ export default function ActivitiesPage() {
       title: "Group Conversation",
       description: "Practicing group discussion skills",
       category: "Social",
-      trainingHours: "Training Hours: 30 hours",
+      trainingHours: "Training Hours: 30 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
   ])
@@ -268,7 +266,7 @@ export default function ActivitiesPage() {
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-xl font-bold text-[#2b3674]">Suggested Activities</h2>
                 <div className="flex items-center text-[#707eae]">
-                  <span className="mr-2">Adela Parkson</span>
+                  <span className="mr-2">Interest Level</span>
                   <ChevronDown className="w-4 h-4" />
                 </div>
               </div>
@@ -307,6 +305,7 @@ export default function ActivitiesPage() {
 
               {/* Skills Distribution */}
               <div className="mt-8">
+              <h2 className="text-xl font-bold text-[#2b3674]">Suggested Activities</h2>
                 <div className="flex items-center justify-between mb-2">
                   <div className="flex items-center">
                     <div className="w-3 h-3 rounded-full bg-[#4318ff] mr-2"></div>

@@ -305,7 +305,7 @@ export default function ActivitiesPage() {
 
               {/* Skills Distribution */}
               <div className="mt-8">
-              <h2 className="text-xl font-bold text-[#2b3674]">Suggested Activities</h2>
+              <h2 className="text-xl font-bold text-[#2b3674]">Today's Participant Stats</h2>
                 <div className="flex items-center justify-between mb-2">
                   <div className="flex items-center">
                     <div className="w-3 h-3 rounded-full bg-[#4318ff] mr-2"></div>

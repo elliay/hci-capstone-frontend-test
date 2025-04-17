@@ -110,7 +110,7 @@ export default function ActivitiesPage() {
       title: "Counting Numbers",
       description: "Basic counting from 1-100",
       category: "Math",
-      trainingHours: "Training Hours: 20-25 hrs",
+      trainingHours: "Time: 20-25 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -118,7 +118,7 @@ export default function ActivitiesPage() {
       title: "Calculating for Change",
       description: "Day-to-day interaction with money",
       category: "Math",
-      trainingHours: "Training Hours: 40 hrs",
+      trainingHours: "Time: 40 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -126,7 +126,7 @@ export default function ActivitiesPage() {
       title: "Color & Painting",
       description: "Understand the different colors",
       category: "Art",
-      trainingHours: "Training Hours: 30 hrs",
+      trainingHours: "Time: 30 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -134,7 +134,7 @@ export default function ActivitiesPage() {
       title: "Music Genres",
       description: "Understand the different genres",
       category: "Music",
-      trainingHours: "Training Hours: 35 hrs",
+      trainingHours: "Time: 35 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -142,7 +142,7 @@ export default function ActivitiesPage() {
       title: "Social Interaction",
       description: "Practice everyday social skills",
       category: "Social",
-      trainingHours: "Training Hours: 45 hrs",
+      trainingHours: "Time: 45 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -150,7 +150,7 @@ export default function ActivitiesPage() {
       title: "Drawing Basics",
       description: "Learn fundamental drawing techniques",
       category: "Art",
-      trainingHours: "Training Hours: 25 hrs",
+      trainingHours: "Time: 25 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -158,7 +158,7 @@ export default function ActivitiesPage() {
       title: "Rhythm & Beat",
       description: "Understanding musical rhythm",
       category: "Music",
-      trainingHours: "Training Hours: 20 hrs",
+      trainingHours: "Time: 20 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -166,7 +166,7 @@ export default function ActivitiesPage() {
       title: "Basic Addition",
       description: "Adding numbers up to 100",
       category: "Math",
-      trainingHours: "Training Hours: 15 hrs",
+      trainingHours: "Time: 15 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -174,7 +174,7 @@ export default function ActivitiesPage() {
       title: "Group Conversation",
       description: "Practicing group discussion skills",
       category: "Social",
-      trainingHours: "Training Hours: 30 hrs",
+      trainingHours: "Time: 30 hrs",
       icon: "/placeholder.svg?height=40&width=40",
     },
   ])

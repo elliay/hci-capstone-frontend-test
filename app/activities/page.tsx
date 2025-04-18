@@ -179,16 +179,16 @@ export default function ActivitiesPage() {
       title: "Counting Numbers",
       description: "Basic counting from 1-100",
       category: "Math",
-      trainingHours: "Training Hour: 20-25 hrs",
+      trainingHours: "Time: 20-25 mins",
       daysAgo: "2d ago",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
       id: "6",
       title: "Color & Painting",
-      description: "Understanding different colors and painting techniques",
+      description: "Understanding painting techniques",
       category: "Art",
-      trainingHours: "Training Hour: 30 hrs",
+      trainingHours: "Time: 30 mins",
       daysAgo: "4d ago",
       icon: "/placeholder.svg?height=40&width=40",
     },
@@ -197,7 +197,7 @@ export default function ActivitiesPage() {
       title: "Music Genres",
       description: "Exploring various music styles and their characteristics",
       category: "Music",
-      trainingHours: "Training Hour: 15-20 hrs",
+      trainingHours: "Time: 15-20 mins",
       daysAgo: "8d ago",
       icon: "/placeholder.svg?height=40&width=40",
     },
@@ -230,7 +230,7 @@ export default function ActivitiesPage() {
       title: "Counting Numbers",
       description: "Basic counting from 1-100",
       category: "Math",
-      trainingHours: "Training Hours: 20-25 hours",
+      trainingHours: "Time: 20-25 mins",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -238,7 +238,7 @@ export default function ActivitiesPage() {
       title: "Calculating for Change",
       description: "Day-to-day interaction with money",
       category: "Math",
-      trainingHours: "Training Hours: 40 hours",
+      trainingHours: "Time: 40 mins",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -246,7 +246,7 @@ export default function ActivitiesPage() {
       title: "Color & Painting",
       description: "Understand the different colors",
       category: "Art",
-      trainingHours: "Training Hours: 30 hours",
+      trainingHours: "Time: 30 mins",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -254,7 +254,7 @@ export default function ActivitiesPage() {
       title: "Music Genres",
       description: "Understand the different genres",
       category: "Music",
-      trainingHours: "Training Hours: 35 hours",
+      trainingHours: "Time: 35 mins",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -262,7 +262,7 @@ export default function ActivitiesPage() {
       title: "Social Interaction",
       description: "Practice everyday social skills",
       category: "Social",
-      trainingHours: "Training Hours: 45 hours",
+      trainingHours: "Time: 45 mins",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -270,7 +270,7 @@ export default function ActivitiesPage() {
       title: "Drawing Basics",
       description: "Learn fundamental drawing techniques",
       category: "Art",
-      trainingHours: "Training Hours: 25 hours",
+      trainingHours: "Time: 25 mins",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -278,7 +278,7 @@ export default function ActivitiesPage() {
       title: "Rhythm & Beat",
       description: "Understanding musical rhythm",
       category: "Music",
-      trainingHours: "Training Hours: 20 hours",
+      trainingHours: "Time: 20 mins",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -286,7 +286,7 @@ export default function ActivitiesPage() {
       title: "Basic Addition",
       description: "Adding numbers up to 100",
       category: "Math",
-      trainingHours: "Training Hours: 15 hours",
+      trainingHours: "Time: 15 mins",
       icon: "/placeholder.svg?height=40&width=40",
     },
     {
@@ -294,7 +294,7 @@ export default function ActivitiesPage() {
       title: "Group Conversation",
       description: "Practicing group discussion skills",
       category: "Social",
-      trainingHours: "Training Hours: 30 hours",
+      trainingHours: "Time: 30 mins",
       icon: "/placeholder.svg?height=40&width=40",
     },
   ])
@@ -411,7 +411,7 @@ export default function ActivitiesPage() {
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-xl font-bold text-[#2b3674]">Suggested Activity Categories</h2>
                 <div className="flex items-center text-[#707eae]">
-                  <span className="mr-2">Based on participant goals</span>
+                  <span className="mr-2">Participant Goals</span>
                   <ChevronDown className="w-4 h-4" />
                 </div>
               </div>

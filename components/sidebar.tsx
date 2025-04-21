@@ -34,7 +34,7 @@ export function Sidebar({ activePage }: SidebarProps) {
               href="/"
               className={`flex items-center px-6 py-3 ${
                 activePage === "dashboard"
-                  ? "text-[#4318ff] border-l-4 border-[#4318ff] bg-[#f4f7fe]"
+                  ? "text-[#63b7e6] border-l-4 border-[#63b7e6] bg-[#f4f7fe]"
                   : "text-[#707eae] hover:bg-[#f4f7fe]"
               }`}
             >
@@ -47,7 +47,7 @@ export function Sidebar({ activePage }: SidebarProps) {
               href="/activities"
               className={`flex items-center px-6 py-3 ${
                 activePage === "activities"
-                  ? "text-[#4318ff] border-l-4 border-[#4318ff] bg-[#f4f7fe]"
+                  ? "text-[#63b7e6] border-l-4 border-[#63b7e6] bg-[#f4f7fe]"
                   : "text-[#707eae] hover:bg-[#f4f7fe]"
               }`}
             >
@@ -60,7 +60,7 @@ export function Sidebar({ activePage }: SidebarProps) {
               href="/participants"
               className={`flex items-center px-6 py-3 ${
                 activePage === "participants"
-                  ? "text-[#4318ff] border-l-4 border-[#4318ff] bg-[#f4f7fe]"
+                  ? "text-[#63b7e6] border-l-4 border-[#63b7e6] bg-[#f4f7fe]"
                   : "text-[#707eae] hover:bg-[#f4f7fe]"
               }`}
             >
@@ -73,7 +73,7 @@ export function Sidebar({ activePage }: SidebarProps) {
               href="/account"
               className={`flex items-center px-6 py-3 ${
                 activePage === "account"
-                  ? "text-[#4318ff] border-l-4 border-[#4318ff] bg-[#f4f7fe]"
+                  ? "text-[#63b7e6] border-l-4 border-[#63b7e6] bg-[#f4f7fe]"
                   : "text-[#707eae] hover:bg-[#f4f7fe]"
               }`}
             >

@@ -11,8 +11,9 @@ interface Activity {
   id: string
   title: string
   description: string
-  category: "Art" | "Music" | "Math" | "Social"
-  duration: string
+  category: string
+  duration: string // Changed from trainingHours
+  difficulty: "Easy" | "Medium" | "Hard" // Added difficulty
   date: string
   time: string
   location: string
@@ -81,6 +82,7 @@ const activitiesData: Record<string, Activity> = {
     notes:
       "Harry may need additional support with numbers above 50. Luke has shown significant improvement in the last two sessions. Mary can help demonstrate counting techniques to others.",
     image: "/placeholder.svg?height=300&width=500",
+    difficulty: "Easy",
   },
   "2": {
     id: "2",
@@ -139,6 +141,7 @@ const activitiesData: Record<string, Activity> = {
     notes:
       "Connor needs consistent support throughout the session. McArthur excels at mental math but needs practice with handling physical money. Hans responds well to role-playing scenarios.",
     image: "/placeholder.svg?height=300&width=500",
+    difficulty: "Medium",
   },
   "3": {
     id: "3",
@@ -197,6 +200,7 @@ const activitiesData: Record<string, Activity> = {
     notes:
       "Hans may need alternative tools if he's sensitive to brush textures. Hilary has shown exceptional talent with color mixing. Luke benefits from using larger brushes for better control.",
     image: "/placeholder.svg?height=300&width=500",
+    difficulty: "Easy",
   },
   "4": {
     id: "4",
@@ -255,6 +259,7 @@ const activitiesData: Record<string, Activity> = {
     notes:
       "McArthur is deaf and uses ASL; ensure visual components are available for all audio content. Harry has a strong interest in music and can be encouraged to share his knowledge. Jack responds well to hands-on activities with instruments.",
     image: "/placeholder.svg?height=300&width=500",
+    difficulty: "Medium",
   },
   "5": {
     id: "5",
@@ -312,6 +317,7 @@ const activitiesData: Record<string, Activity> = {
     notes:
       "Hans may need breaks if the environment becomes overwhelming. Hilary has shown excellent customer service skills in previous outings. Luke should be paired with a staff member for the first hour.",
     image: "/placeholder.svg?height=300&width=500",
+    difficulty: "Hard",
   },
   "6": {
     id: "6",
@@ -370,6 +376,7 @@ const activitiesData: Record<string, Activity> = {
     notes:
       "Connor needs articles with picture support. McArthur benefits from pre-teaching key vocabulary. Mary can be paired with peers who need additional support. Jack is particularly interested in sports news.",
     image: "/placeholder.svg?height=300&width=500",
+    difficulty: "Medium",
   },
   "7": {
     id: "7",
@@ -427,6 +434,7 @@ const activitiesData: Record<string, Activity> = {
     notes:
       "McArthur communicates primarily through ASL; ensure interpreter is available. Luke has been working on maintaining appropriate distance during conversations. Harry benefits from immediate feedback on interactions.",
     image: "/placeholder.svg?height=300&width=500",
+    difficulty: "Medium",
   },
   "8": {
     id: "8",
@@ -485,7 +493,21 @@ const activitiesData: Record<string, Activity> = {
     notes:
       "Connor may need modified activities focusing on simple shapes. Jack benefits from larger paper and ergonomic pencil grips. Hans responds well to clear, sequential instructions. Mary can be encouraged to try more advanced techniques.",
     image: "/placeholder.svg?height=300&width=500",
+    difficulty: "Easy",
   },
+}
+
+const getDifficultyColor = (difficulty: string) => {
+  switch (difficulty) {
+    case "Easy":
+      return "bg-green-100 text-green-800"
+    case "Medium":
+      return "bg-blue-100 text-blue-800"
+    case "Hard":
+      return "bg-purple-100 text-purple-800"
+    default:
+      return "bg-gray-100 text-gray-800"
+  }
 }
 
 export default function ActivityDetail() {
@@ -580,7 +602,7 @@ export default function ActivityDetail() {
           <div className="mb-6">
             <button
               onClick={() => router.push("/activities")}
-              className="flex items-center text-[#707eae] hover:text-[#4318ff] mb-4"
+              className="flex items-center text-[#707eae] hover:text-[#63b7e6] mb-4"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
               <span>Back to Activities</span>
@@ -610,7 +632,7 @@ export default function ActivityDetail() {
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
                   <h2 className="text-xl font-semibold text-[#2b3674]">Description</h2>
-                  <button className="text-[#707eae] hover:text-[#4318ff]">
+                  <button className="text-[#707eae] hover:text-[#63b7e6]">
                     <Pencil className="w-5 h-5" />
                   </button>
                 </div>
@@ -623,14 +645,14 @@ export default function ActivityDetail() {
               <h2 className="text-xl font-semibold text-[#2b3674] mb-4">Activity Details</h2>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <Clock className="w-5 h-5 text-[#4318ff] mt-0.5 mr-3" />
+                  <Clock className="w-5 h-5 text-[#63b7e6] mt-0.5 mr-3" />
                   <div>
                     <p className="text-sm text-[#8f9bba]">Duration</p>
                     <p className="text-[#2b3674] font-medium">{activity.duration}</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <Calendar className="w-5 h-5 text-[#4318ff] mt-0.5 mr-3" />
+                  <Calendar className="w-5 h-5 text-[#63b7e6] mt-0.5 mr-3" />
                   <div>
                     <p className="text-sm text-[#8f9bba]">Date & Time</p>
                     <p className="text-[#2b3674] font-medium">{activity.date}</p>
@@ -638,17 +660,27 @@ export default function ActivityDetail() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <MapPin className="w-5 h-5 text-[#4318ff] mt-0.5 mr-3" />
+                  <MapPin className="w-5 h-5 text-[#63b7e6] mt-0.5 mr-3" />
                   <div>
                     <p className="text-sm text-[#8f9bba]">Location</p>
                     <p className="text-[#2b3674] font-medium">{activity.location}</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <Users className="w-5 h-5 text-[#4318ff] mt-0.5 mr-3" />
+                  <Users className="w-5 h-5 text-[#63b7e6] mt-0.5 mr-3" />
                   <div>
                     <p className="text-sm text-[#8f9bba]">Participants</p>
                     <p className="text-[#2b3674] font-medium">{activity.participants.length} registered</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div>
+                    <p className="text-sm text-[#8f9bba]">Difficulty</p>
+                    <div
+                      className={`${getDifficultyColor(activity.difficulty)} px-2 py-0.5 rounded-full text-xs font-medium`}
+                    >
+                      {activity.difficulty}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -659,7 +691,7 @@ export default function ActivityDetail() {
           <div className="bg-white rounded-xl shadow-sm p-6 mb-8">
             <div className="flex justify-between items-center mb-6">
               <h2 className="text-xl font-semibold text-[#2b3674]">Participants & Support Needs</h2>
-              <button className="flex items-center text-[#707eae] hover:text-[#4318ff]">
+              <button className="flex items-center text-[#707eae] hover:text-[#63b7e6]">
                 <UserPlus className="w-5 h-5 mr-2" />
                 <span>Add Participant</span>
               </button>
@@ -732,14 +764,14 @@ export default function ActivityDetail() {
             <div className="bg-white rounded-xl shadow-sm p-6">
               <div className="flex justify-between items-start mb-4">
                 <h2 className="text-xl font-semibold text-[#2b3674]">Materials</h2>
-                <button className="text-[#707eae] hover:text-[#4318ff]">
+                <button className="text-[#707eae] hover:text-[#63b7e6]">
                   <Pencil className="w-5 h-5" />
                 </button>
               </div>
               <ul className="space-y-2">
                 {activity.materials.map((material, index) => (
                   <li key={index} className="flex items-start">
-                    <div className="w-2 h-2 rounded-full bg-[#4318ff] mt-2 mr-3"></div>
+                    <div className="w-2 h-2 rounded-full bg-[#63b7e6] mt-2 mr-3"></div>
                     <span className="text-[#707eae]">{material}</span>
                   </li>
                 ))}
@@ -750,7 +782,7 @@ export default function ActivityDetail() {
             <div className="bg-white rounded-xl shadow-sm p-6">
               <div className="flex justify-between items-start mb-4">
                 <h2 className="text-xl font-semibold text-[#2b3674]">Objectives</h2>
-                <button className="text-[#707eae] hover:text-[#4318ff]">
+                <button className="text-[#707eae] hover:text-[#63b7e6]">
                   <Pencil className="w-5 h-5" />
                 </button>
               </div>
@@ -769,7 +801,7 @@ export default function ActivityDetail() {
           <div className="bg-white rounded-xl shadow-sm p-6">
             <div className="flex justify-between items-start mb-4">
               <h2 className="text-xl font-semibold text-[#2b3674]">Notes</h2>
-              <button className="text-[#707eae] hover:text-[#4318ff]">
+              <button className="text-[#707eae] hover:text-[#63b7e6]">
                 <Pencil className="w-5 h-5" />
               </button>
             </div>

@@ -12,10 +12,11 @@ interface Activity {
   title: string
   description: string
   category: string
-  duration: string // Changed from trainingHours
-  difficulty: "Easy" | "Medium" | "Hard" // Added difficulty
+  duration: string
+  difficulty: "Easy" | "Medium" | "Hard"
   date: string
   time: string
+  lastRunDate?: string
   location: string
   participants: {
     id: string
@@ -41,6 +42,7 @@ const activitiesData: Record<string, Activity> = {
     duration: "45 min",
     date: "May 15, 2024",
     time: "2:00 PM - 2:45 PM",
+    lastRunDate: "May 10, 2024",
     location: "Classroom 105",
     participants: [
       {
@@ -93,6 +95,7 @@ const activitiesData: Record<string, Activity> = {
     duration: "60 min",
     date: "May 16, 2024",
     time: "10:00 AM - 11:00 AM",
+    lastRunDate: "May 8, 2024",
     location: "Classroom 105",
     participants: [
       {
@@ -152,6 +155,7 @@ const activitiesData: Record<string, Activity> = {
     duration: "50 min",
     date: "May 15, 2024",
     time: "4:30 PM - 5:20 PM",
+    lastRunDate: "May 12, 2024",
     location: "Art Room 102",
     participants: [
       {
@@ -211,6 +215,7 @@ const activitiesData: Record<string, Activity> = {
     duration: "90 min",
     date: "May 17, 2024",
     time: "1:00 PM - 2:30 PM",
+    lastRunDate: "May 5, 2024",
     location: "Music Room 203",
     participants: [
       {
@@ -270,6 +275,7 @@ const activitiesData: Record<string, Activity> = {
     duration: "120 min",
     date: "May 19, 2024",
     time: "10:00 AM - 12:00 PM",
+    lastRunDate: "May 11, 2024",
     location: "Trader Joe's - Main Street",
     participants: [
       {
@@ -328,6 +334,7 @@ const activitiesData: Record<string, Activity> = {
     duration: "45 min",
     date: "May 18, 2024",
     time: "11:00 AM - 11:45 AM",
+    lastRunDate: "May 9, 2024",
     location: "Library",
     participants: [
       {
@@ -387,6 +394,7 @@ const activitiesData: Record<string, Activity> = {
     duration: "60 min",
     date: "May 20, 2024",
     time: "2:30 PM - 3:30 PM",
+    lastRunDate: "May 7, 2024",
     location: "Community Room",
     participants: [
       {
@@ -445,6 +453,7 @@ const activitiesData: Record<string, Activity> = {
     duration: "60 min",
     date: "May 21, 2024",
     time: "10:00 AM - 11:00 AM",
+    lastRunDate: "May 6, 2024",
     location: "Art Room 102",
     participants: [
       {
@@ -495,6 +504,142 @@ const activitiesData: Record<string, Activity> = {
     image: "/placeholder.svg?height=300&width=500",
     difficulty: "Easy",
   },
+  // Add entries for activities 5-9 from the recent activities section
+  "5": {
+    id: "5",
+    title: "Memory Card Match",
+    description: "Practice short-term memory with card matching exercises",
+    category: "Memory",
+    duration: "25 min",
+    date: "May 22, 2024",
+    time: "9:00 AM - 9:25 AM",
+    lastRunDate: "May 13, 2024",
+    location: "Classroom 101",
+    participants: [
+      {
+        id: "1",
+        name: "Luke Carter",
+        avatar: "/placeholder.svg?height=50&width=50",
+        supportLevel: "Minimal",
+        notes: "Shows good progress with memory tasks",
+      },
+      {
+        id: "3",
+        name: "Hans Beckham",
+        avatar: "/placeholder.svg?height=50&width=50",
+        supportLevel: "Moderate",
+        notes: "May need additional time",
+      },
+    ],
+    materials: ["Memory card sets", "Timer", "Score sheets"],
+    objectives: ["Improve short-term visual memory", "Practice concentration", "Develop matching skills"],
+    notes: "Start with fewer cards for participants who need more support. Gradually increase difficulty.",
+    image: "/placeholder.svg?height=300&width=500",
+    difficulty: "Easy",
+  },
+  "6": {
+    id: "6",
+    title: "Attention Scanning",
+    description: "Find specific items in a busy visual field",
+    category: "Attention",
+    duration: "30 min",
+    date: "May 23, 2024",
+    time: "10:30 AM - 11:00 AM",
+    lastRunDate: "May 11, 2024",
+    location: "Classroom 102",
+    participants: [
+      {
+        id: "2",
+        name: "Jack Hughes",
+        avatar: "/placeholder.svg?height=50&width=50",
+        supportLevel: "Minimal",
+        notes: "Good at visual scanning tasks",
+      },
+      {
+        id: "4",
+        name: "Mary Jarris",
+        avatar: "/placeholder.svg?height=50&width=50",
+        supportLevel: "Moderate",
+        notes: "May need larger print materials",
+      },
+    ],
+    materials: ["Visual search worksheets", "Highlighters", "Timer"],
+    objectives: ["Improve visual scanning abilities", "Enhance selective attention", "Practice sustained focus"],
+    notes: "Provide verbal cues for participants who struggle with maintaining attention.",
+    image: "/placeholder.svg?height=300&width=500",
+    difficulty: "Easy",
+  },
+  "7": {
+    id: "7",
+    title: "Word Association",
+    description: "Practice verbal fluency and word retrieval",
+    category: "Language",
+    duration: "35 min",
+    date: "May 24, 2024",
+    time: "1:00 PM - 1:35 PM",
+    lastRunDate: "May 7, 2024",
+    location: "Library",
+    participants: [
+      {
+        id: "5",
+        name: "Hilary Canes",
+        avatar: "/placeholder.svg?height=50&width=50",
+        supportLevel: "Minimal",
+        notes: "Strong verbal skills",
+      },
+      {
+        id: "7",
+        name: "Harry Zhang",
+        avatar: "/placeholder.svg?height=50&width=50",
+        supportLevel: "Moderate",
+        notes: "May need prompting for word retrieval",
+      },
+    ],
+    materials: ["Word cards", "Category lists", "Timer"],
+    objectives: ["Improve word retrieval speed", "Expand vocabulary", "Strengthen semantic connections"],
+    notes: "Start with common categories and gradually move to more abstract associations.",
+    image: "/placeholder.svg?height=300&width=500",
+    difficulty: "Medium",
+  },
+  "9": {
+    id: "9",
+    title: "News Discussion Group",
+    description: "Reading and discussing current events",
+    category: "Social",
+    duration: "45 min",
+    date: "May 25, 2024",
+    time: "11:00 AM - 11:45 AM",
+    lastRunDate: "May 3, 2024",
+    location: "Community Room",
+    participants: [
+      {
+        id: "4",
+        name: "Mary Jarris",
+        avatar: "/placeholder.svg?height=50&width=50",
+        supportLevel: "Minimal",
+        notes: "Strong reading comprehension",
+      },
+      {
+        id: "6",
+        name: "McArthur Jin",
+        avatar: "/placeholder.svg?height=50&width=50",
+        supportLevel: "Moderate",
+        notes: "Needs visual supports for discussions",
+      },
+      {
+        id: "8",
+        name: "Connor Douglas",
+        avatar: "/placeholder.svg?height=50&width=50",
+        supportLevel: "Substantial",
+        notes: "Benefits from simplified news articles",
+      },
+    ],
+    materials: ["Simplified news articles", "Discussion prompts", "Visual aids"],
+    objectives: ["Improve reading comprehension", "Practice discussion skills", "Develop awareness of current events"],
+    notes: "Provide different reading levels for participants with varying abilities.",
+    image: "/placeholder.svg?height=300&width=500",
+    difficulty: "Medium",
+  },
 }
 
 const getDifficultyColor = (difficulty: string) => {
@@ -544,6 +689,12 @@ export default function ActivityDetail() {
         return "bg-[#23FBC5]"
       case "Social":
         return "bg-[#63B7E6]"
+      case "Memory":
+        return "bg-[#63b7e6]"
+      case "Attention":
+        return "bg-[#FF5733]"
+      case "Language":
+        return "bg-[#e83e8c]"
       default:
         return "bg-gray-400"
     }
@@ -654,9 +805,8 @@ export default function ActivityDetail() {
                 <div className="flex items-start">
                   <Calendar className="w-5 h-5 text-[#63b7e6] mt-0.5 mr-3" />
                   <div>
-                    <p className="text-sm text-[#8f9bba]">Date & Time</p>
-                    <p className="text-[#2b3674] font-medium">{activity.date}</p>
-                    <p className="text-[#2b3674] font-medium">{activity.time}</p>
+                    <p className="text-sm text-[#8f9bba]">Last Run</p>
+                    <p className="text-[#2b3674] font-medium">{activity.lastRunDate || "Not run yet"}</p>
                   </div>
                 </div>
                 <div className="flex items-start">

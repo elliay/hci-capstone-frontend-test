@@ -77,7 +77,7 @@ const participantProfiles: Record<string, ParticipantProfile> = {
     name: "Luke Carter",
     joinedDate: "Joined March, 16th 2024",
     birthdate: "Birthdate: Jun 20th 1966",
-    avatar: "/placeholder.svg?height=400&width=400",
+    avatar: "/guy9.png?height=400&width=400",
     generalInfo:
       "Luke is currently working on improving his social skills. He has made significant progress in group settings and is now focusing on one-on-one interactions and maintaining conversations for longer periods.",
     assistiveTechnology: "Speech Recognition Software",
@@ -264,7 +264,7 @@ const participantProfiles: Record<string, ParticipantProfile> = {
     name: "Jack Hughes",
     joinedDate: "Joined April, 14th 2023",
     birthdate: "Birthdate: Sep 12th 1974",
-    avatar: "/placeholder.svg?height=400&width=400",
+    avatar: "/guy2.jpg?height=400&width=400",
     generalInfo:
       "Jack is focused on developing vocational skills. He has a background in construction but needed to transition to less physically demanding work after an injury. He's currently learning computer skills and office administration.",
     assistiveTechnology: "Ergonomic Workstation",
@@ -452,7 +452,7 @@ const participantProfiles: Record<string, ParticipantProfile> = {
     name: "Hans Beckham",
     joinedDate: "Joined January, 7th 2025",
     birthdate: "Birthdate: Oct 9th 1998",
-    avatar: "/placeholder.svg?height=400&width=400",
+    avatar: "/guy6.png?height=400&width=400",
     generalInfo:
       "Hans is a young adult with autism spectrum disorder who is working on independent living skills. He excels in mathematics and has a special interest in public transportation systems. He's currently focusing on daily living skills and social interactions.",
     assistiveTechnology: "Communication App",
@@ -638,7 +638,7 @@ const participantProfiles: Record<string, ParticipantProfile> = {
     name: "Mary Jarris",
     joinedDate: "Joined February, 4th 2021",
     birthdate: "Birthdate: Nov 7th 1987",
-    avatar: "/placeholder.svg?height=400&width=400",
+    avatar: "/girl1.png?height=400&width=400",
     generalInfo:
       "Mary is recovering from a stroke that affected her left side mobility and speech. She was previously a teacher and is determined to return to work in an educational setting. She's making excellent progress with her rehabilitation.",
     assistiveTechnology: "Mobility Aids",
@@ -825,7 +825,7 @@ const participantProfiles: Record<string, ParticipantProfile> = {
     name: "Hilary Canes",
     joinedDate: "Joined June, 30th 2023",
     birthdate: "Birthdate: Aug 15th 1990",
-    avatar: "/placeholder.svg?height=400&width=400",
+    avatar: "/girl2.jpg?height=400&width=400",
     generalInfo:
       "Hilary has an intellectual disability and is working on developing workplace skills. She has a passion for animals and is currently in a job training program at a local pet store. She's particularly focused on improving her customer service skills.",
     assistiveTechnology: "Visual Schedule",
@@ -1012,7 +1012,7 @@ const participantProfiles: Record<string, ParticipantProfile> = {
     name: "McArthur Jin",
     joinedDate: "Joined March, 5th 2024",
     birthdate: "Birthdate: Feb 22nd 1985",
-    avatar: "/placeholder.svg?height=400&width=400",
+    avatar: "/guy5.jpg?height=400&width=400",
     generalInfo:
       "McArthur is deaf and uses American Sign Language as his primary form of communication. He's a skilled graphic designer looking to advance his career. He's currently working on developing his portfolio and networking skills within the design industry.",
     assistiveTechnology: "Video Relay Service",
@@ -1201,9 +1201,9 @@ const participantProfiles: Record<string, ParticipantProfile> = {
     name: "Harry Zhang",
     joinedDate: "Joined July, 21st 2022",
     birthdate: "Birthdate: May 3rd 1995",
-    avatar: "/placeholder.svg?height=400&width=400",
+    avatar: "/guy8.png?height=400&width=400",
     generalInfo:
-      "Harry has ADHD and is working on organizational and time management skills. He's a talented musician who wants to build a career in music production. He's currently focusing on developing consistent work habits and project completion strategies.",
+      "Harry has TBI and is working on organizational and time management skills. He's a talented musician who wants to build a career in music production. He's currently focusing on developing consistent work habits and project completion strategies.",
     assistiveTechnology: "Time Management Apps",
     workHistory: "Music Store Associate",
     hometown: "Nashville, TN",
@@ -1389,7 +1389,7 @@ const participantProfiles: Record<string, ParticipantProfile> = {
     name: "Connor Douglas",
     joinedDate: "Joined March, 16th 2024",
     birthdate: "Birthdate: Dec 11th 1980",
-    avatar: "/placeholder.svg?height=400&width=400",
+    avatar: "/guy7.png?height=400&width=400",
     generalInfo:
       "Connor is recovering from a traumatic brain injury sustained in a car accident. He previously worked in finance and is working on cognitive rehabilitation. He's making steady progress with memory and executive functioning skills.",
     assistiveTechnology: "Memory Aids",

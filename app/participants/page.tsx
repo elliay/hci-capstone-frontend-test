@@ -59,7 +59,7 @@ export default function ParticipantsPage() {
       joinedDate: "Joined January, 7th 2025",
       birthdate: "Birthdate: Oct 9th 1998",
       isPresent: false,
-      avatar: "/guy3.jpg?height=120&width=120",
+      avatar: "/guy6.jpg?height=120&width=120",
       interests: ["Math", "Art"],
       skillLevels: {
         Math: 80,
@@ -119,7 +119,7 @@ export default function ParticipantsPage() {
       joinedDate: "Joined July, 21st 2022",
       birthdate: "Birthdate: May 3rd 1995",
       isPresent: false,
-      avatar: "/guy5.jpg?height=120&width=120",
+      avatar: "/guy8.png?height=120&width=120",
       interests: ["Music", "Social"],
       skillLevels: {
         Math: 75,
@@ -134,7 +134,7 @@ export default function ParticipantsPage() {
       joinedDate: "Joined March, 16th 2024",
       birthdate: "Birthdate: Dec 11th 1980",
       isPresent: false,
-      avatar: "/guy5.jpg?height=120&width=120",
+      avatar: "/guy7.png?height=120&width=120",
       interests: ["Math", "Art"],
       skillLevels: {
         Math: 60,

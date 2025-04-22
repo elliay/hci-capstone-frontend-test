@@ -87,7 +87,7 @@ export function Sidebar({ activePage }: SidebarProps) {
       {/* Logo */}
       <div className="p-6 border-t border-[#e0e5f2]">
         <div className="flex justify-center">
-          <Image src="/class-logo.svg" alt="CLASS - Community Living And Support Services" width={140} height={80} />
+          <Image src="/classlogo.png" alt="CLASS - Community Living And Support Services" width={140} height={80} />
         </div>
       </div>
     </div>

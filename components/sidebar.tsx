@@ -14,7 +14,7 @@ export function Sidebar({ activePage }: SidebarProps) {
         <div className="flex flex-col items-center">
           <div className="relative w-16 h-16 mb-2">
             <Image
-              src="/placeholder.svg?height=64&width=64"
+              src="/teacher.png?height=64&width=64"
               alt="Joan Day"
               className="rounded-full border-2 border-[#63b7e6]"
               width={64}

@@ -424,7 +424,7 @@ const activitiesData: Record<string, Activity> = {
         notes: "Benefits from visual supports",
       },
     ],
-    materials: ["Logic puzzle worksheets", "Manipulatives", "Visual aids"],
+    materials: ["Logic puzzle worksheets [LINK]", "Manipulatives", "Visual aids"],
     objectives: ["Develop logical reasoning", "Enhance problem-solving strategies", "Improve sequential thinking"],
     notes: "Provide puzzles at various difficulty levels. Offer hints as needed.",
     image: "/puzzle.jpg?height=300&width=500",

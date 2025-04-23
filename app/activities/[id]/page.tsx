@@ -187,10 +187,10 @@ const activitiesData: Record<string, Activity> = {
         notes: "May need additional time",
       },
     ],
-    materials: ["Memory card sets", "Timer", "Score sheets"],
+    materials: ["Memory card sets [LINK]", "Timer", "Score sheets"],
     objectives: ["Improve short-term visual memory", "Practice concentration", "Develop matching skills"],
     notes: "Start with fewer cards for participants who need more support. Gradually increase difficulty.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/memory_game.jpg?height=300&width=500",
     difficulty: "Easy",
   },
   "6": {
@@ -427,7 +427,7 @@ const activitiesData: Record<string, Activity> = {
     materials: ["Logic puzzle worksheets", "Manipulatives", "Visual aids"],
     objectives: ["Develop logical reasoning", "Enhance problem-solving strategies", "Improve sequential thinking"],
     notes: "Provide puzzles at various difficulty levels. Offer hints as needed.",
-    image: "/logic_puzzles.png?height=300&width=500",
+    image: "/puzzle.jpg?height=300&width=500",
     difficulty: "Easy",
   },
   "13": {
